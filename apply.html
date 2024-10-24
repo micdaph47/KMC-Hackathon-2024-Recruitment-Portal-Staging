@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Apply for a Job</h1>
+    <form action="/submit-application" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
